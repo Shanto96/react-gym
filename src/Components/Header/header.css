@@ -1,0 +1,26 @@
+.header {
+  justify-content: space-between;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  color: #fff;
+}
+
+.logo {
+  width: 10rem;
+  height: 3rem;
+}
+.nav-menu > li {
+  background: linear-gradient(90deg, transparent, var(--orange), transparent)
+    bottom / var(--d, 0) 3px no-repeat;
+  transition: 0.5s;
+}
+
+.nav-menu > li:hover {
+  cursor: pointer;
+  color: var(--orange);
+  --d: 100%;
+}

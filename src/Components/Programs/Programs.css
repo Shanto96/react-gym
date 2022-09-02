@@ -1,0 +1,9 @@
+.p-heading {
+  align-items: center;
+  font-weight: bold;
+  justify-content: space-around;
+  font-size: 4rem;
+  font-style: italic;
+  padding: 0 13rem;
+  color: #fff;
+}

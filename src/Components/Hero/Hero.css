@@ -1,0 +1,166 @@
+.hero {
+  justify-content: space-between;
+  height: 80vh;
+}
+
+.h-left {
+  flex: 3;
+  padding: 2rem;
+  padding-top: 2.5rem;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+.h-right {
+  flex: 1;
+
+  position: relative;
+  background: var(--orange);
+}
+
+.best-add {
+  margin-top: 4rem;
+  background-color: #363d42;
+  border-radius: 4rem;
+  padding: 20px 13px;
+  max-width: fit-content;
+  position: relative;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.best-add > span {
+  text-transform: uppercase;
+  color: #fff;
+  z-index: 5;
+}
+.add-box {
+  width: 6rem;
+  height: 100%;
+  border-radius: 4rem;
+  background-color: var(--orange);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.hero-text {
+  font-weight: bold;
+  font-size: 4.5rem;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.5rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-overflow: inherit;
+}
+.span {
+  font-size: 1rem;
+  text-transform: none;
+  font-weight: 200;
+  width: 80%;
+  letter-spacing: 1px;
+}
+.figures {
+  gap: 2rem;
+}
+.figures > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.count {
+  color: #fff;
+  font-size: 2rem;
+}
+.text {
+  color: var(--gray);
+  text-transform: uppercase;
+}
+.hero-buttons {
+  gap: 2rem;
+}
+
+.hero-buttons > :nth-child(1) {
+  color: #fff;
+  width: 8rem;
+  background-color: var(--orange);
+}
+.hero-buttons > :nth-child(2) {
+  color: #fff;
+  width: 8rem;
+  background-color: transparent;
+  border: 2px solid var(--orange);
+}
+
+.h-right-btn {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  width: 8rem;
+}
+
+.h-container {
+  background-color: var(--darkGrey);
+  width: fit-content;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 5px;
+  position: absolute;
+  right: 4rem;
+  top: 7rem;
+}
+
+.h-container > :nth-child(2) {
+  color: var(--gray);
+}
+.h-container > :nth-child(3) {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.h-container > img {
+  width: 2rem;
+}
+.hero-img {
+  top: 10rem;
+  right: 12rem;
+  width: 25rem;
+  position: absolute;
+  display: block;
+}
+.hero-back {
+  position: absolute;
+  top: 6rem;
+  right: 20rem;
+  width: 26rem;
+  z-index: -1;
+}
+.calory-container {
+  background-color: var(--darkGrey);
+  width: fit-content;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  border-radius: 4px;
+  position: absolute;
+  left: -10rem;
+  bottom: 2rem;
+}
+.calory-text {
+  display: flex;
+  flex-direction: column;
+}
+.calory-text > :nth-child(1) {
+  color: var(--gray);
+  font-size: 1rem;
+}
+.calory-text > :nth-child(2) {
+  color: #fff;
+  font-size: 1.5rem;
+}
