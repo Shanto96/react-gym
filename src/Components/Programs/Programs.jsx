@@ -1,6 +1,8 @@
 import React from "react";
 import "./Programs.css";
 import Card from "../Card/Card";
+import { ProgramsData } from "./prgramData";
+import Arrow from "../../assets/rightArrow.png";
 function Programs() {
   return (
     <div className="programs">
@@ -15,11 +17,20 @@ function Programs() {
           <span className="stroke-text">To Shape You</span>
         </div>
       </div>
-      <div className="p-cards df-flex">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+
+      <div className="p-cards d-flex">
+        {ProgramsData.map((program) => {
+          return (
+            <div className="card">
+              {program.img}
+              <span className="  ">{program.heading}</span>
+              <span className="text"> {program.body}</span>
+              <span className="join">
+                Join Now <img src={Arrow} alt="" />
+              </span>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
