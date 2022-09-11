@@ -1,0 +1,77 @@
+.testimonials {
+  display: flex;
+  gap: 1rem;
+  padding: 0 2rem;
+}
+
+.t-left {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: #fff;
+  flex: 1 1;
+}
+
+.t-left > :nth-child(1) {
+  color: var(--orange);
+  font-weight: bold;
+}
+
+.t-left > :nth-child(2),
+.t-left > :nth-child(3) {
+  font-weight: bold;
+  font-size: 3rem;
+}
+.t-left > :nth-child(4) {
+  text-transform: none;
+  letter-spacing: 2px;
+  align-items: justify;
+  line-height: 40px;
+}
+.t-right {
+  flex: 1 1;
+  position: relative;
+}
+.t-user {
+  color: var(--orange);
+}
+.t-right > img {
+  position: absolute;
+  width: 17rem;
+  height: 20rem;
+  object-fit: cover;
+  right: 8rem;
+  top: 2rem;
+}
+
+.t-right > :nth-child(1) {
+  position: absolute;
+  width: 17rem;
+  height: 20rem;
+  border: 2px solid var(--orange);
+  top: 0.9rem;
+  right: 9rem;
+  background: transparent;
+}
+.t-right > :nth-child(2) {
+  position: absolute;
+  width: 17rem;
+  height: 20rem;
+  background: var(--planCard);
+  top: 4rem;
+  right: 7rem;
+}
+
+.arrows {
+  display: flex;
+  position: absolute;
+  bottom: 1rem;
+  left: 3rem;
+  gap: 1rem;
+}
+
+.arrows > img {
+  width: 1.5rem;
+  cursor: pointer;
+}
