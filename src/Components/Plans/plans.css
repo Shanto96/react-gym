@@ -1,0 +1,75 @@
+.plans {
+  margin-top: -4rem;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  position: relative;
+}
+.plan-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.p-card {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  gap: 2rem;
+  background: var(--caloryCard);
+  padding: 1.5rem;
+  width: 15rem;
+}
+
+.plan-cards > :nth-child(2) {
+  background: var(--planCard);
+  transform: scale(1.1);
+}
+
+.p-card > svg {
+  width: 2rem;
+  height: 2rem;
+  fill: var(--orange);
+}
+
+.p-card > :nth-child(2) {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.p-card > :nth-child(3) {
+  font-weight: bold;
+  font-size: 3rem;
+}
+.feture {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.plan {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.plan > img {
+  height: 1rem;
+  width: 1rem;
+}
+.see-more {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.see-more > img {
+  width: 1rem;
+}
+
+.plan-cards > :nth-child(2) > svg {
+  fill: white;
+}
+.plan-cards > :nth-child(2) > button {
+  color: var(--orange);
+}
