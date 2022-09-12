@@ -1,0 +1,38 @@
+.footer-container {
+  height: 20rem;
+  position: relative;
+}
+
+.f-blur-1 {
+  width: 20rem;
+  height: 10rem;
+  left: 9rem;
+  top: 0rem;
+}
+.f-blur-2 {
+  width: 15rem;
+  height: 12rem;
+  right: 8rem;
+}
+.social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.social-container > img {
+  width: 3rem;
+}
+
+.logo-container {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-container > img {
+  height: 3rem;
+}

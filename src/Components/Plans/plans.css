@@ -6,6 +6,18 @@
   gap: 4rem;
   position: relative;
 }
+.p-blur-1 {
+  width: 23rem;
+  height: 30rem;
+  top: 6rem;
+  left: 8rem;
+}
+.p-blur-2 {
+  width: 23rem;
+  height: 30rem;
+  right: 10rem;
+  top: 10rem;
+}
 .plan-cards {
   display: flex;
   justify-content: center;

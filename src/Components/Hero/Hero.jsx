@@ -5,13 +5,21 @@ import Heart from "../../assets/heart.png";
 import HeroImg from "../../assets/hero_image.png";
 import HeroBack from "../../assets/hero_image_back.png";
 import HeartHealth from "../../assets/calories.png";
+import { motion } from "framer-motion";
 function Hero() {
+  const transition = { type: "spring", duration: 3 };
   return (
     <div className="hero d-flex">
+      <div className="blur h-blur"></div>
       <div className="h-left">
         <Header />
         <div className="best-add">
-          <div className="add-box"></div>
+          <motion.div
+            initial={{ left: "238px" }}
+            whileInView={{ left: "9px" }}
+            transition={transition}
+            className="add-box"
+          ></motion.div>
           <span>the best fitness club in the town</span>
         </div>
 
@@ -52,15 +60,32 @@ function Hero() {
       </div>
       <div className="h-right">
         <button className="btn h-right-btn">Join Now</button>
-        <div className="h-container">
+        <motion.div
+          className="h-container"
+          initial={{ right: "-1rem" }}
+          whileInView={{ right: "4rem" }}
+          transition={transition}
+        >
           <img src={Heart} alt="" />
           <span>Heart Rate</span>
           <span>116bpm</span>
-        </div>
+        </motion.div>
         <img src={HeroImg} alt="" className="hero-img" />
-        <img src={HeroBack} alt="" className="hero-back" />
+        <motion.img
+          src={HeroBack}
+          alt=""
+          className="hero-back"
+          initial={{ right: "16rem" }}
+          transition={transition}
+          whileInView={{ right: "20rem" }}
+        />
 
-        <div className="calory-container">
+        <motion.div
+          className="calory-container"
+          initial={{ left: "-5rem" }}
+          whileInView={{ left: "-10rem" }}
+          transition={transition}
+        >
           <img src={HeartHealth} alt="" className="hero-health" />
           <div className="calory-text">
             <span>
@@ -71,7 +96,7 @@ function Hero() {
               220 <br /> kcal
             </span>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

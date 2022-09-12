@@ -1,8 +1,14 @@
 .hero {
   justify-content: space-between;
   height: 80vh;
+  position: relative;
 }
 
+.h-blur {
+  width: 23rem;
+  height: 30rem;
+  left: 0;
+}
 .h-left {
   flex: 3;
   padding: 2rem;

@@ -6,6 +6,8 @@ import rightArrow from "../../assets/rightArrow.png";
 function Plans() {
   return (
     <div className="plans">
+      <div className="blur p-blur-1"></div>
+      <div className="blur p-blur-2"></div>
       <div className="p-heading d-flex">
         <div>
           <span className="stroke-text">READY TO START</span>
