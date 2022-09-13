@@ -170,3 +170,60 @@
   color: #fff;
   font-size: 1.5rem;
 }
+
+@media screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    height: auto;
+  }
+  .best-add {
+    margin-top: 0;
+    font-size: 0.65rem;
+    padding: 10px 15px;
+    width: 100%;
+  }
+  .hero-text {
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+  }
+  .span {
+    font-size: small;
+    align-items: center;
+    justify-content: center;
+  }
+  .figures > div > :nth-child(1) {
+    font-size: large;
+  }
+  .figures > div > :nth-child(2) {
+    font-size: small;
+  }
+  .h-right {
+    position: relative;
+    background: transparent;
+  }
+  .h-container {
+    left: 1rem;
+    top: 1rem;
+    transform: scale(0.8);
+  }
+  .calory-container {
+    position: relative;
+    top: 8rem;
+    left: 1rem !important;
+    transform: scale(0.8);
+  }
+  .calory-container > img {
+    transform: scale(0.677);
+  }
+  .hero-img {
+    position: relative;
+    width: 12rem;
+    left: 7rem;
+  }
+  .hero-back {
+    width: 10rem;
+    left: 3rem;
+    top: 10rem;
+  }
+}
