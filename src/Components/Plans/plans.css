@@ -86,4 +86,8 @@
   color: var(--orange);
 }
 @media screen and (max-width: 768px) {
+  .plan-cards {
+    flex-direction: column;
+    padding: 0 2rem;
+  }
 }

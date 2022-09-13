@@ -51,6 +51,12 @@
   cursor: pointer;
 }
 @media screen and (max-width: 768px) {
+  .programs {
+    padding: 0 2rem;
+  }
+  .p-cards {
+    padding: 0;
+  }
   .p-heading {
     flex-direction: column;
     font-size: xx-large;
@@ -59,7 +65,7 @@
     justify-content: center;
     align-items: flex-start;
     margin-top: 2rem;
-    padding: 0 2rem;
+    padding: 0 0.5rem;
   }
   .p-cards {
     flex-direction: column;
