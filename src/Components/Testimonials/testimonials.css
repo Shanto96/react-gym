@@ -75,3 +75,27 @@
   width: 1.5rem;
   cursor: pointer;
 }
+@media screen and (max-width: 768px) {
+  .testimonials {
+    flex-direction: column;
+  }
+
+  .t-right > img {
+    position: relative;
+    left: 1rem;
+    width: 14rem;
+  }
+  .t-right > :nth-child(1) {
+    position: absolute;
+    width: 14rem;
+    left: 0rem;
+  }
+  .t-right > :nth-child(2) {
+    width: 14rem;
+    right: 1rem !important;
+  }
+  .arrows {
+    position: relative;
+    bottom: -4rem;
+  }
+}
