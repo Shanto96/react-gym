@@ -251,3 +251,22 @@
     top: 12rem;
   }
 }
+@media screen and (max-width: 1439px) and (min-width: 1025px) {
+  .hero-img {
+    width: 13rem;
+  }
+  .hero-back {
+    width: 14rem;
+    top: 12rem;
+  }
+  .p-heading {
+    padding: 2rem;
+  }
+  .top,
+  .button {
+    height: auto !important;
+  }
+  .calory-container {
+    bottom: 13rem;
+  }
+}
