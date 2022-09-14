@@ -36,13 +36,13 @@
   color: #fff;
   line-height: 25px;
 }
-.join {
+.p-join {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
-.join img {
+.p-join img {
   width: 1rem;
 }
 
@@ -81,9 +81,22 @@
   .card > :nth-child(3) {
     font-size: small;
   }
-  .join {
+  .p-join {
     padding: 0rem !important;
     font-size: small !important;
     gap: 0.5rem !important;
+  }
+}
+@media screen and (max-width: 1080px) and (min-width: 768px) {
+  .p-heading {
+    padding: 0 5rem;
+    font-size: 2.5rem;
+  }
+  .card > :nth-child(2) {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  .card > :nth-child(3) {
+    font-size: 0.75rem;
   }
 }

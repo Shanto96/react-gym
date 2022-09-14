@@ -116,3 +116,9 @@
     height: auto;
   }
 }
+@media screen and (max-width: 1080px) and (min-width: 768px) {
+  .top,
+  .button {
+    height: auto;
+  }
+}

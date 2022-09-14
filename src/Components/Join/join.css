@@ -50,3 +50,14 @@
   background: var(--orange);
   color: #fff;
 }
+@media screen and (max-width: 768px) {
+  .join {
+    flex-direction: column;
+  }
+  .j-left {
+    font-size: xx-large;
+  }
+  .j-right {
+    margin: 10px 0.5rem;
+  }
+}

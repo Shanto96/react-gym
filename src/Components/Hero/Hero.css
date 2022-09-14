@@ -171,7 +171,7 @@
   font-size: 1.5rem;
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .hero {
     flex-direction: column;
     height: auto;
@@ -225,5 +225,29 @@
     width: 10rem;
     left: 3rem;
     top: 10rem;
+  }
+}
+@media screen and (max-width: 1080px) and (min-width: 768px) {
+  .h-right {
+    position: relative;
+  }
+  .hero-img {
+    position: relative;
+    width: 10rem;
+    right: 2rem;
+    top: 16rem;
+  }
+  .h-container {
+    transform: scale(0.8);
+  }
+  .calory-container {
+    transform: scale(0.677);
+    left: 3rem;
+  }
+  .hero-back {
+    width: 10rem;
+    position: absolute;
+    left: -5rem;
+    top: 12rem;
   }
 }

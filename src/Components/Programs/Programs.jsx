@@ -25,7 +25,7 @@ function Programs() {
               {program.img}
               <span className="  ">{program.heading}</span>
               <span className="text"> {program.body}</span>
-              <span className="join">
+              <span className="p-join">
                 Join Now <img src={Arrow} alt="" />
               </span>
             </div>
